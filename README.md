@@ -18,11 +18,11 @@ It currently supports variable declarations, expressions, basic control flow (if
 Make sure you have CMake and a C++ compiler (like g++) installed.
 
 # Inside the project root
-mkdir build
-cd build
-cmake ..
-make
-You’ll get the HcodeCompiler binary inside the build/ directory.
+## mkdir build
+##cd build
+##cmake ..
+##make
+##You’ll get the HcodeCompiler binary inside the build/ directory.
 
 ## Running Hcode Programs
 ./HcodeCompiler ../examples/hello.hcode
