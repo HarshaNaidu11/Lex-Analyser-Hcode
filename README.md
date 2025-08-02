@@ -14,21 +14,6 @@ It currently supports variable declarations, expressions, basic control flow (if
 - ✅ **Braced block support** `{ ... }`
 - ✅ **Error handling** with line and column info
 
-## 📁 Project Structure
-Hcode/
-├── build/                # Build directory (created after compiling)
-├── examples/             # Sample Hcode programs
-│   ├── hello.hcode       # Simple example (let, expressions)
-│   └── control.hcode     # Uses if, else, loops
-├── include/
-│   └── lexer.h           # Lexer header
-├── src/
-│   ├── main.cpp          # Entry point
-│   ├── lexer.cpp         # Tokenizer logic
-│   └── parser.cpp        # AST & evaluator logic
-├── CMakeLists.txt        # Build configuration
-└── README.md             # This file
-
 🛠️ Building the Project
 Make sure you have CMake and a C++ compiler (like g++) installed.
 
